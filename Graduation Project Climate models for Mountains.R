@@ -14,10 +14,11 @@ library(usethis)
 wd <- ("C:/Users/repap5991/Downloads/Data/R/GraduationProject") #setting the working dirctory
 setwd (wd) 
 
+DS <- ("C:/Users/repap5991/Downloads/Data/R/DataStorage")
 
 # 1.0 loading data ---------
 
-
+MtRugdNessv2 <- raster(paste0(DS, "/GMBA_2021_RuggednessMntnMask_EarthEnv_30s_V2.tif"))
 
 
 
