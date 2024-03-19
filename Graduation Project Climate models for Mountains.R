@@ -21,5 +21,5 @@ DS <- ("C:/Users/repap5991/Downloads/Data/R/DataStorage") # make connection to d
 MtRugdNessv2 <- raster(paste0(DS, "/GMBA_2021_RuggednessMntnMask_EarthEnv_30s_V2.tif")) # add ruggedness mountain data
 
 
-
+plot(MtRugdNessv2)
 
